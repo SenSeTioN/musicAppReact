@@ -1,0 +1,53 @@
+.playbar {
+  position: fixed;
+  background-color: #330d63;
+
+  width: calc(100vw - 40px);
+  height: 70px;
+
+  left: 0;
+  bottom: 0;
+
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  gap: 30px;
+
+  & > .togglePlay {
+    transform: scale(120%);
+  }
+
+  & > p {
+    font-size: 14px;
+  }
+
+  & * {
+    color: #fff;
+  }
+}
+
+.preview {
+  width: 55px;
+  height: 55px;
+  border-radius: 10px;
+}
+
+.credits {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  letter-spacing: 2px;
+
+  & > p {
+    font-size: 14px;
+  }
+}
+
+.slider {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-basis: 600px;
+  margin-left: auto;
+}

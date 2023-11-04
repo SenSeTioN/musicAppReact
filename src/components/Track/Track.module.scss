@@ -1,0 +1,40 @@
+.track {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+  color: #fff;
+
+  &b {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  &p {
+    letter-spacing: 1px;
+    color: #fff;
+    font-size: 15px;
+  }
+}
+
+.credits {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.preview {
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+}
+
+.playing * {
+  color: #7226d4;
+}
+
+.icon {
+  color: #fff;
+}
